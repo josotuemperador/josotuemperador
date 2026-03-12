@@ -1,15 +1,25 @@
-## Hi there 👋
+vainilla=0
+chocolate=0
+fresa=0
 
-<!--
-**josotuemperador/josotuemperador** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+print("Registro de heladeria")
 
-Here are some ideas to get you started:
+for i in range(1,6):
+    print(f"Pedido{i}")
+    voto = input("Elige un sabor(vainilla,chocolate,fresa):").lower().strip()
 
-- 🔭 I’m currently working on a software development project that, i don´t know  what it's about.
-- 🌱 I’m currently learning  software development with Python
-- 👯 I’m looking to collaborate on ... Sorry i don´t know, i not have expectation
-- 💬 Ask me about of history
-- 📫 How to reach me: talk with me 
-- 😄 Pronouns: i not have pronouns
-- ⚡ Fun fact: i love jokes 
--->
+    if voto == "vainilla":
+        vainilla += 1
+    elif voto =="chocolate":
+        chocolate += 1 
+    elif voto =="fresa":
+         fresa  += 1 
+    else:
+        print("Error:Sabor no reconocido.")
+
+print ("\n"+"-"*30)
+print ("Resumen de ventas:")
+print (f"vainilla: {vainilla}")
+print (f"chocolate: {chocolate}")               
+print (f"fresa: {fresa}")
+print ("-"*30)
