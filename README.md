@@ -23,3 +23,4 @@ print (f"vainilla: {vainilla}")
 print (f"chocolate: {chocolate}")               
 print (f"fresa: {fresa}")
 print ("-"*30)
+Hello, friends. Today I'm going to tell you about the code I wrote for an ice cream shop. The ice cream shop wants to record five orders per customer, and the program must ask for the chosen flavor.
