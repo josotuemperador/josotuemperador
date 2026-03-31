@@ -1,26 +1,6 @@
-vainilla=0
-chocolate=0
-fresa=0
-
-print("Registro de heladeria")
-
-for i in range(1,6):
-    print(f"Pedido{i}")
-    voto = input("Elige un sabor(vainilla,chocolate,fresa):").lower().strip()
-
-    if voto == "vainilla":
-        vainilla += 1
-    elif voto =="chocolate":
-        chocolate += 1 
-    elif voto =="fresa":
-         fresa  += 1 
-    else:
-        print("Error:Sabor no reconocido.")
-
-print ("\n"+"-"*30)
-print ("Resumen de ventas:")
-print (f"vainilla: {vainilla}")
-print (f"chocolate: {chocolate}")               
-print (f"fresa: {fresa}")
-print ("-"*30)
-Hello, friends. Today I'm going to tell you about the code I wrote for an ice cream shop. The ice cream shop wants to record five orders per customer, and the program must ask for the chosen flavor.
+Hi guys and girls, my project is about student management in Python
+Registration (Create): Allows you to register new students by requesting information such as ID, Name, Age, Email, and Course.
+View and Search (Read): You can view the complete list of registered students or search for a specific person using their name or ID (thanks to the find_student function and the use of .lower()).
+Update: Allows you to modify the name of an already registered student if you notice an error or if it has changed.
+Logical Deletion (Delete): Instead of deleting the record completely, the system "kills" the ID by changing its status to inactive (this way you maintain a history of who has used the system).
+Data Validation: The project ensures that the user does not leave fields empty ("check this box"), requiring that the information be valid before processing.
