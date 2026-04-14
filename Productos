@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+      <h1>Productos</h1>
+      <nav>
+        <ul>
+            <li>
+                <a href="index.html">Volver a la tienda</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="Galeria">
+        <article class="Productos-card">
+            <img src="https://images.unsplash.com/photo-1748467390346-e94ad7852366?q=80&w=1113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Poción de curación">
+            <h3>Poción de curación</h3>
+            <p>Te cura en los peores momentos.</p>
+        </article>
+
+        <article class="Productos-card">
+            <img src="https://espadasymas.com/cdn/shop/products/espada-medieval-hibernian-msw241-espadasymas.jpg?v=1694319856&width=600" alt="Espada">
+            <h3>Espada</h3>
+            <P>Arma exclusiva de nobles y comerciantes, se supone que es para ellos.</P>
+        </article>
+
+        <article class="Productos-card">
+            <img src="https://i.etsystatic.com/11165327/r/il/b2b221/4727122455/il_794xN.4727122455_3jwf.jpg" alt="Baculo de madera">
+            <h3>Baculo de madera</h3>
+            <p>Un baculo sensillo para magos principiantes.</p>
+
+        </article>
+       
+        <article class="Productos-card">
+            <img src="https://p.turbosquid.com/ts-thumb/C8/vi4DJV/zMOxvCPl/2/jpg/1319463263/1200x1200/fit_q99/7a4d73ff56ce720dc63decb1898bb1feee49ecd9/2.jpg" alt="Arco compuesto">
+            <h3>Arco compuesto</h3>
+            <p>Utilizado por los guerreros de las estepas y los mongoles.</p>
+        </article>
+    </main>
+    
+</body>
+</html>
