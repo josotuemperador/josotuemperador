@@ -14,6 +14,9 @@ Muestra tus trabajos (Landing Page y Blog) usando tarjetas interactivas.
 
 4. Captación de Contactos
 
+
+   
+Link:
 Finaliza con un formulario profesional para recibir mensajes, validando que el usuario ingrese su nombre y correo antes de enviar.
 
 
