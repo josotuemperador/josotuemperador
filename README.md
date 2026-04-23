@@ -15,3 +15,8 @@ Muestra tus trabajos (Landing Page y Blog) usando tarjetas interactivas.
 4. Captación de Contactos
 
 Finaliza con un formulario profesional para recibir mensajes, validando que el usuario ingrese su nombre y correo antes de enviar.
+
+
+
+
+file:///home/cohorte5/Descargas/josu%20andrade(el%20que%20la%20borre%20es%20Therian)/Html%20josu/index.html
